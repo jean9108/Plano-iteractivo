@@ -1,0 +1,165 @@
+/******************/
+/*** GLOBAL CSS ***/
+/******************/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, 
+cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, 
+dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; position: relative; }
+
+body 					{ line-height: 1; }
+ol, ul, li 				{ list-style: none; }
+:focus 					{ outline: 0; }
+table 					{ border-collapse: collapse; border-spacing: 0; }
+a img 					{ border: none; }
+a, a:link, 
+a:visited, 
+a.active 				{ text-decoration:none; }
+
+/*** FONT ***/	
+body					{ font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #666666; }
+a						{ color: #4DA1BD; text-decoration: none; }
+a:hover					{ color: #4DA1BD; text-decoration: underline; }
+p						{ color: #666666; line-height: 14pt; }
+h1						{ color: #999999; font-size: 20px; font-weight: normal; font-family: Arial, Helvetica, sans-serif; font-weight: bold; line-height: 30px; }
+h2						{ color: #999999; font-size: 14px; font-weight: normal; font-family: Arial, Helvetica, sans-serif; font-weight: bold; line-height: 16pt; }
+h3						{ color: #999999; font-size: 14px; font-weight: normal; font-family: Arial, Helvetica, sans-serif; font-weight: bold; line-height: 14px; }
+h3 a					{ color: #999999;  }
+.source					{ font-size: 10px; }
+
+/************/
+/*** BODY ***/
+/************/
+body 					{ background: url(../images/background/body.png);  }
+
+/**************/
+/*** HEADER ***/
+/**************/
+#header					{ width: 100%; height: 72px; position: relative; background: #ffffff; border-bottom: 1px solid #D3D1CB; margin: 0 0 10px 0; text-align: center;}
+#header .page 			{ width: 1100px; margin: 0 auto; padding: 0; text-align: center; }
+#header .logo			{ position: relative; margin: 10px 0 0 10px; padding: 0; text-align: center; }
+#header .logo img		{ height: 47px; text-align: center;}
+
+
+/************/
+/*** PAGE ***/
+/************/
+.page 					{ width: 1100px; margin:   0 auto; padding: 0; }
+.box_main				{ width: 800px; position: relative; float: left;  margin: 0 0 0 0; }
+.box_panel				{ width: 280px; position: relative; float: right; margin: 0 0 0 0; }
+
+/**********************/
+/*** MAP BACKGROUND ***/
+/**********************/
+.map_back_us			{ width: 780px; height: 400px; background: url(../images/backgrounds/map_back_us.jpg) center no-repeat; background-size: cover; border-radius: 6px; }
+.map_back_uscounties	{ width: 780px; height: 400px; background: url(../images/backgrounds/map_back_uscounties.jpg) center no-repeat; background-size: cover; border-radius: 6px; }
+.map_back_usallcounties	{ width: 780px; height: 400px; background: url(../images/backgrounds/map_back_usallcounties.jpg) center no-repeat; background-size: cover; border-radius: 6px; }
+.map_back_world			{ width: 780px; height: 400px; background: url(../images/backgrounds/map_back_world.jpg) center no-repeat; background-size: cover; border-radius: 6px; }
+
+/**********************/
+/*** BOX - STANDARD ***/
+/**********************/
+.box					{ margin: 0; padding: 0; background: #f6f5f1; }
+.box .top				{ padding: 6px 12px 4px; border: 1px solid #D3D1CB; border-radius: 4px 4px 0 0; }
+.box .top h3			{ display: inline-block; }
+.box p.note				{ text-align: right; color: #999999; font-size: 11px; margin: 2px 0 0 0; }
+.box .logo				{ padding: 30px 20px 10px; border: 1px solid #D3D1CB; border-radius: 4px 4px 0 0; background: #ffffff; }
+.box .cnt				{ padding: 12px 10px; background: #ffffff; border: 1px solid #d3d1cb; border-top: none; border-radius: 0 0 4px 4px; overflow: hidden; }
+.box .subtitle 			{ font-size: 12px; line-height: 12pt; margin: 4px 0 0 0;  }
+.copy 					{ padding: 8px 0 0 6px;  }
+.hide					{ display: none; }
+.line					{ margin: 5px 0 5px 0;border-bottom: 1px solid #eceae6; }
+.boxtop					{ width: 1100px; padding: 0; border: 1px solid #D3D1CB; border-radius: 4px; background: #ffffff; }
+.boxtop .logo			{ padding: 30px 20px 10px; }
+
+div.span_1, div.span_2,
+div.span_3, div.span_4, 
+div.span_5, div.span_6,
+div.span_7, div.span_8, 
+div.span_9				{ position: relative; float: left; margin: 0 10px 10px 0; display: inline; }
+
+.span_1					{ width:  80px; }
+.span_2					{ width: 235px; }
+.span_3					{ width: 280px; }
+.span_4					{ width: 320px; }
+.span_5					{ width: 400px; }
+.span_6					{ width: 510px; }
+.span_7					{ width: 560px; }
+.span_8					{ width: 640px; }
+.span_9					{ width: 800px; }
+div.last				{ margin-right: 0; }
+
+/***********************/
+/*** BOX INSTRUCTION ***/
+/***********************/
+ul.box_instructions				{ margin: 6px 12px; padding: 0 0 0 12px; list-style: outside;  }
+ul.box_instructions li			{ line-height: 1.5em; list-style-type: square;  }
+
+/****************/
+/*** BOX MENU ***/
+/****************/
+ul.box_menu    					{ margin: 6px 12px; padding: 0; list-style-type: none; }
+ul.box_menu li					{ border-top: 1px solid #eceae6; line-height: 1;  }
+ul.box_menu li a  				{ display: block; padding: 6px 12px; } 
+ul.box_menu li a:hover			{ padding: -6px -12px;   }
+ul.box_menu li a.last			{ border-bottom: 1px solid #eceae6; }
+ul.box_menu li a.select			{ color: #DD3F24; font-weight: bold; }
+ul.box_menu li a.select:hover	{ text-decoration: none; cursor: default; }
+
+/******************/
+/*** BOX LEGEND ***/
+/******************/
+.box .legend			{ width: 780px; margin: 8px auto 0 auto; overflow: hidden; }
+.box div.legend_box		{ width: 12px; height: 12px; border: 1px solid #999999; float: left; }
+.box div.legend_label	{ float: left; font-size: 10px; margin: 0 6px 0 3px; padding: 2px 0 }
+.box div.box_label		{ float: left; height: 20px; margin: 0 3px 0 0; padding: 0; font-size: 12px; line-height: 20px;  }
+
+/****************/
+/*** BOX YEAR ***/
+/****************/
+#slider					{ width: 220px; margin: 5px auto;  }
+.box_slider_legend		{ width: 250px; margin: 5px auto; padding: 0; height: 30px; }
+#radio_param			{ width: 220px; margin: 5px auto; }
+
+/****************/
+/*** BOX INFO ***/
+/****************/
+table.box_info			{ width: 100%; margin: 5px 0; border-collapse: collapse; }
+table.box_info td		{ font-size: 12px; padding: 1px; color: #666666; vertical-align: middle; }
+table.box_info td.right { text-align: right; }
+
+table.box_world_info			{ width: 100%; margin: 5px 0; border-collapse: collapse; }
+table.box_world_info td			{ font-size: 11px; padding: 1px; color: #666666; vertical-align: top; height: 30px; }
+table.box_world_info td.right 	{ text-align: right; }
+
+/*****************/
+/*** BOX TOOLS ***/
+/*****************/
+.flist					{ margin: 5px 0 5px 20px; padding: 0; }
+.flist .boxlegend		{ float: left; display: inline-block; width: 14px; height: 14px; margin: 1px 5px 0 0; padding: 0; border: 1px solid #cccccc; }
+a.enable				{ color: #4DA1BD !important; text-decoration: none; }
+a.enable:hover			{ text-decoration: underline;  }
+a.disable				{ color: #cccccc !important; text-decoration: none; }
+a.disable:hover			{ text-decoration: underline; }
+.marker					{ width: 20px; text-align: center; display:inline-block; }
+.flag					{ width: 20px; height: 12px; text-align: left; display:inline-block; }
+
+ul.box_tools					{ margin: 5px 0 5px 0; padding: 0; clear: both; list-style-type: none; }
+ul.box_tools li					{ font-size: 12px; padding: 1px 0 0 0; line-height: 1.4em; }
+ul.box_tools li a  				{ font-size: 11px; } 
+
+/***************/
+/*** JQM MAP ***/
+/***************/
+.jqm_loader				{ width: 220px; padding: 20px; display: none; background-color: #FFFFFF; color: #333333; font-family: Verdana, Geneva, sans-serif; font-size: 11px; text-align: center; border: 1px solid #999999; opacity: 0.95; -moz-border-radius:6px; -webkit-border-radius:6px; -moz-box-shadow: 0 0 50px #ccc; -webkit-box-shadow: 0 0 50px #ccc; position: absolute;  }
+
+/*** JQM POPUP ***/
+.jqm_popup             	{ position: absolute; display: none; width: 240px; font-size: 12px; color: #333333; text-align: center; line-height: 14px; background: #f6f5f1; border-radius: 6px; padding: 0; }
+.jqm_popup .title       { color: #666666; padding: 5px 10px; font-weight: bold; text-transform: uppercase; border: 1px solid #D3D1CB; border-bottom: none; border-radius: 6px 6px 0 0; }
+.jqm_popup .popup		{ color: #333333; padding: 5px 10px; background: #ffffff; border: 1px solid #D3D1CB; border-radius: 0 0 6px 6px; }
+
+/*** JQM POPUP - WORLD ***/
+.jqm_popup_world        { position: absolute; display: none; font-size: 12px; font-weight: bold; color: #ffffff; text-align: center; line-height: 1.4em; background: #000000; border-radius: 4px; padding: 6px 12px; }
+.jqm_popup_world .popup	{ font-size: 11px; color: #ffffff; font-weight: normal; }
+
+.jqm_box_dialog			{ color: #333333; padding: 5px 10px; margin: 0; line-height: 18px; width: 90% !important; max-width: 1000px; height: auto !important; }
+.box_dialog				{ opacity: 0.9; z-index: 9999; }
